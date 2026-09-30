@@ -29,7 +29,7 @@ Eksempel: "Beregninger av bestandsindekser og flerartsindekser i Norsk hekkefugl
 * Pakker/biblioteker som kreves
 * Versjoner om nødvendig
 
-Dependencies skal spesifiseres i en miljøfil i repoet (f.eks. `requirements.txt`, `environment.yml` eller `renv.lock`).
+Dependencies skal spesifiseres i en miljøfil i repoet (f.eks. `requirements.txt`, `environment.yml` eller `renv.lock`). Filen skal være tilstrekkelig til at analysemiljøet kan gjenskapes uten manuell spesifikasjon av pakker og versjoner. 
 
 ## 4. Struktur
 Dette repoet følger en standard mappestruktur for å gjøre det enkelt å navigere
