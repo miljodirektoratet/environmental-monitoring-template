@@ -64,11 +64,13 @@ _Dokumenter alle forutsetninger som kreves for å kjøre analysen og gjenskape r
   - Vi anbefaler å bruke `renv` for å håndtere pakker og avhengigheter.
   - Eventuelle systemavhengigheter som kreves for å bygge eller kjøre pakker (f.eks. GDAL, PROJ og GEOS for geospatiale pakker), skal dokumenteres.
   - Dersom installasjon av systemavhengigheter krever egne kommandoer, anbefaler vi å legge ved et skript (f.eks. `.sh`) som dokumenterer installasjonstrinnene.
+  - R versjon skal være >4.4
 
   **Python-miljø:**
   - Vi anbefaler å bruke `uv` som pakkebehandler og definere miljøet i `pyproject.toml`.
   - Dersom conda-støtte er nødvendig, anbefaler vi å bruke `pixi`.
   - Se [uv-demo](https://github.com/miljodirektoratet/uv-demo)-repoet for anbefalt praksis for Python-utvikling og reproducerbare miljøer.
+  - Python versjon skal være >3.11
 
   **ArcPy-miljø:**
   - For analyser som bruker ArcPy, anbefales ArcGIS Pro sitt conda-miljø.
